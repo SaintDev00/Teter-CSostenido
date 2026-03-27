@@ -1,0 +1,14 @@
+/home/csharp/ClinicaSalud/bin/Debug/net9.0/ClinicaSalud
+/home/csharp/ClinicaSalud/bin/Debug/net9.0/ClinicaSalud.deps.json
+/home/csharp/ClinicaSalud/bin/Debug/net9.0/ClinicaSalud.runtimeconfig.json
+/home/csharp/ClinicaSalud/bin/Debug/net9.0/ClinicaSalud.dll
+/home/csharp/ClinicaSalud/bin/Debug/net9.0/ClinicaSalud.pdb
+/home/csharp/ClinicaSalud/obj/Debug/net9.0/ClinicaSalud.GeneratedMSBuildEditorConfig.editorconfig
+/home/csharp/ClinicaSalud/obj/Debug/net9.0/ClinicaSalud.AssemblyInfoInputs.cache
+/home/csharp/ClinicaSalud/obj/Debug/net9.0/ClinicaSalud.AssemblyInfo.cs
+/home/csharp/ClinicaSalud/obj/Debug/net9.0/ClinicaSalud.csproj.CoreCompileInputs.cache
+/home/csharp/ClinicaSalud/obj/Debug/net9.0/ClinicaSalud.dll
+/home/csharp/ClinicaSalud/obj/Debug/net9.0/refint/ClinicaSalud.dll
+/home/csharp/ClinicaSalud/obj/Debug/net9.0/ClinicaSalud.pdb
+/home/csharp/ClinicaSalud/obj/Debug/net9.0/ClinicaSalud.genruntimeconfig.cache
+/home/csharp/ClinicaSalud/obj/Debug/net9.0/ref/ClinicaSalud.dll

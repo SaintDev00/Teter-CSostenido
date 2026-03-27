@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/csharp/ClinicaSalud/ClinicaSalud.csproj": {}
+  },
+  "projects": {
+    "/home/csharp/ClinicaSalud/ClinicaSalud.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/csharp/ClinicaSalud/ClinicaSalud.csproj",
+        "projectName": "ClinicaSalud",
+        "projectPath": "/home/csharp/ClinicaSalud/ClinicaSalud.csproj",
+        "packagesPath": "/home/csharp/.nuget/packages/",
+        "outputPath": "/home/csharp/ClinicaSalud/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/csharp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.115/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
