@@ -12,3 +12,4 @@
 /home/csharp/ClinicaSalud/obj/Debug/net9.0/ClinicaSalud.pdb
 /home/csharp/ClinicaSalud/obj/Debug/net9.0/ClinicaSalud.genruntimeconfig.cache
 /home/csharp/ClinicaSalud/obj/Debug/net9.0/ref/ClinicaSalud.dll
+/home/csharp/ClinicaSalud/obj/Debug/net9.0/ClinicaSalud.sourcelink.json

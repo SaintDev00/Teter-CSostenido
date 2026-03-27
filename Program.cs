@@ -9,12 +9,15 @@ Console.Write(new Pacientes(123,"szapatar",12, "diarrea").Edad);
 Console.Write(new Pacientes(123,"szapatar",12, "diarrea").Sintoma);*/
 bool system = true;
 
-List <string> NombrePacientes = new List<string>()
-{
-   "Juan Sanchez","Camilo Cifuentes","Bad Bunny" 
-};
+List<string> nombrePacientes = new List<string>();
+/*{
+   "Juan Sanchez\n","Camilo Cifuentes\n","Bad Bunny\n" 
+};*/
+//Console.WriteLine("ingresa el paciente 1");
 
-while (system)
+bool exit = false;
+while (system && !exit);
+
 {
     string Options = "1.Register Patient\n"+
                      "2. List Patients\n" +
@@ -29,17 +32,27 @@ while (system)
     choose = Console.ReadKey(true);
     system = false;
 
+
+
     switch (choose.Key)
     {
         case ConsoleKey.R:
         {
-            Console.Write("Do You Want Register A Patient And\n");
+            Console.WriteLine("Do You Want Register A Patient And");
+            string paciente = Console.ReadLine();
+            nombrePacientes.Add(paciente);
             break;
         }
 
-        case ConsoleKey.L:
+    case ConsoleKey.L:
         {
-            Console.Write("Do You Want List Patients And\n");
+            Console.Write("Do You Want List Patients And This Process Charging\n");
+            //Console.WriteLine(string.Join(" ", nombrePacientes));
+            foreach (var pacientes in nombrePacientes)
+            {
+                Console.WriteLine($"El paciente {pacientes}");
+            }
+            Console.ReadLine();
             break;
         }
 
@@ -52,6 +65,7 @@ while (system)
         case ConsoleKey.E:
         {
             Console.Write("Do You Want Exit Of The System And\n");
+            exit = true;
             break;
         }
         default:
